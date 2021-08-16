@@ -11,7 +11,7 @@ int ft_calcul_view(int *T,int dim)
     i = 0;
     view = 0;
     //calculat left-view
-    while (i <dim)
+    while (i < dim)
     {
         if (T[i] > max)
         {
